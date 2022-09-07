@@ -1,0 +1,16 @@
+body{
+    background-color: #FCB9B2;
+}
+
+nav{
+    background-color: #B23A48;
+}
+
+footer{
+    background-color: #461220;
+    color: white;
+}
+
+.navbar-div{
+    max-width: 1007px;
+}
