@@ -1,16 +1,54 @@
 body{
-    background-color: #FCB9B2;
+    background-color: white;
 }
 
 nav{
-    background-color: #B23A48;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    font-family: 'Mulish', sans-serif;
 }
 
 footer{
-    background-color: #461220;
+    background-color: navy;
     color: white;
 }
 
-.navbar-div{
+.navbar-div, .main-body{
     max-width: 1007px;
+}
+
+.nav-span{
+    font-weight: 700;
+}
+
+.homepage-class{
+    display: flex;
+}
+
+#homepage-btn{
+    background-color: navy;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+}
+
+#home-header{
+    margin-top: 4rem;
+    font-family: 'Spectral', serif;
+    font-size: 8rem;
+}
+
+#home-name, #home-p-body{
+    font-family: 'Mulish', sans-serif;
+}
+
+#home-name{
+    font-weight: 700;
+}
+
+#home-p-body{
+    font-size: 1.5rem;
+}
+
+#cover-img{
+    width: 80%;
 }
