@@ -1,8 +1,23 @@
 <% layout('templates/boilerplate') %>
 <div class="mt-5">
     <h1 class="py-3">My Projects</h1>
-    <p>It's currently a work in progress! Will add things to this page once I make more projects.</p>
+    <p>It's currently a work in progress! Will add more things to this page once I make more projects.</p>
     <div class="row">
-        
+        <div class="col-md-6">
+            <%- include('./projectmodals') %>
+            <div class="card w-100">
+                <a data-bs-toggle="modal" data-bs-target="#personalWebsite" id="1">
+                <img
+                  src="https://res.cloudinary.com/dimjqrqmg/image/upload/v1662876670/personal_website_rfppzw.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <h4 class="text-center py-1">Personal Website</h4>
+                </a>
+            </div>
+        </div>     
     </div>
 </div>
+
+
+

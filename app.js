@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const ejsMate = require('ejs-mate');
 const path = require('path');
-
 app.engine('ejs', ejsMate);
 
 app.set('view engine', 'ejs');
