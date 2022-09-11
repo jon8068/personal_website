@@ -21,8 +21,16 @@ footer{
     font-weight: 700;
 }
 
-.homepage-class{
+.homepage-class, .aboutmepage-class{
     display: flex;
+}
+
+.uni-header, #home-name{
+    font-weight: 700;
+}
+
+.aboutme-paragraph{
+    text-align: justify;
 }
 
 #homepage-btn{
@@ -37,12 +45,8 @@ footer{
     font-size: 8rem;
 }
 
-#home-name, #home-p-body{
+.aboutme-page, #home-name, #home-p-body{
     font-family: 'Mulish', sans-serif;
-}
-
-#home-name{
-    font-weight: 700;
 }
 
 #home-p-body{

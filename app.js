@@ -18,6 +18,14 @@ app.get('/pages/homepage', (req, res) => {
     res.render('pages/homepage');
 })
 
+app.get('/pages/aboutmepage', (req, res) => {
+    res.render('pages/aboutmepage');
+})
+
+app.get('/pages/portfoliopage', (req, res) => {
+    res.render('pages/portfoliopage');
+})
+
 app.listen(3000, () => {
     console.log("Serving on port 3000");
 })
