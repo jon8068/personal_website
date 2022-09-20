@@ -1,16 +1,11 @@
 const express = require('express');
-const router = express.Router();
+const router = express.Router(); 
+const pages = require('../controllers/pages');
 
-router.get('/homepage', (req, res) => {
-    res.render('pages/homepage');
-})
+router.get('/homepage', pages.renderHomePage);
 
-router.get('/aboutmepage', (req, res) => {
-    res.render('pages/aboutmepage');
-})
+router.get('/aboutmepage', pages.renderAboutMePage);
 
-router.get('/portfoliopage', (req, res) => {
-    res.render('pages/portfoliopage');
-})
+router.get('/portfoliopage', pages.renderPortfolioPage);
 
 module.exports = router;
